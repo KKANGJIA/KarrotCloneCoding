@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "SCDream3";
+  src: url("./font/S-Core_Dream_OTF/SCDream3.otf") format("truetype");
+}
+
+* {
+  font-family: "SCDream3";
+}
+
+@media screen and (max-width: 768px) {
+  /* home.css */
+  #navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* 부모에 적용해서 자식을 떨어뜨리기 */
+  }
+
+  #nav-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5em;
+    margin: 0 15px;
+  }
+
+  #nav_menu {
+    margin: 15px 20px;
+  }
+
+  #chatting_,
+  #home {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+
+    border: solid #ccc;
+    border-width: 1px 0px 0px 0px;
+    padding: 10px;
+  }
+
+  #product_img {
+    background-image: url("./imgs/karrot.JPG");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  #texts {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.5em;
+  }
+
+  #menus {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px 30px; */
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    transition: transform 300ms ease-out;
+    background-color: transparent;
+  }
+  button:hover {
+    transform: scale(1.1);
+    color: orangered;
+  }
+
+  /* chatting.css */
+  #user_img {
+    background-image: url("./imgs/karrot.JPG");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 50px;
+  }
+
+  #chatting {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #chatting_infos {
+    display: flex;
+  }
+
+  #chatting_infos :nth-child(1),
+  #chatting_infos :nth-child(2) {
+    margin-right: 10px;
+  }
+
+  #chatting_texts {
+    display: flex;
+  }
+
+  #chatting_texts :nth-child(1) {
+    margin-right: 10px;
+  }
+}
