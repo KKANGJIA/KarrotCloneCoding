@@ -23,6 +23,11 @@
 
 
 <br><br>
+### 더 배울 점
+- context API
+- useEffect
+
+<br><br>
 ### 앞으로 할 계획
 - React-native 배우기
 - Type-script 배우기
